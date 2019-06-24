@@ -12,6 +12,6 @@ public class SampleController {
     @RequestMapping("/")
     @ResponseBody
     String home() {
-        return "Hello World web-hook branch01!";
+        return "Hello World web-hook master!";
     }
 }
