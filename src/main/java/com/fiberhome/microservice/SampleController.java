@@ -12,6 +12,6 @@ public class SampleController {
     @RequestMapping("/")
     @ResponseBody
     String home() {
-        return "Hello World github !";
+        return "Hello World github - fpp !";
     }
 }
